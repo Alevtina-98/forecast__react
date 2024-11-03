@@ -6,6 +6,24 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   margin: 0;
+  color: #020000;
 }
-/* .container {
-} */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-forecast,
+.city-kyiv {
+  font-size: 24px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.enter-city {
+  background-color: #be9480;
+  font-size: 32px;
+  border: 2px solid #e9dbd5;
+  border-radius: 20px;
+}

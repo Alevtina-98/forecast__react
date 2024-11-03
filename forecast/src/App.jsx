@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="container">
-      <footer className="cities">
+      <footer className="city-kyiv">
         {kyivCity.main ? (
           <div>
             <h2>{kyivCity.name === "Kyiv" ? "Київ" : kyivCity.name}</h2>
@@ -68,7 +68,7 @@ function App() {
           </div>
           <div className="wind">
             {data.main ? (
-              <p>Wind direction: {data.wind.speed.toFixed()}M/S</p>
+              <p>Wind direction: {data.wind.speed.toFixed()} M/S</p>
             ) : null}
           </div>
         </div>
